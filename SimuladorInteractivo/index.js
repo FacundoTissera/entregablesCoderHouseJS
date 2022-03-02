@@ -7,8 +7,8 @@ function notaFinal() {
     let segundoTrimestre = parseInt(prompt('nota del segundo trimestre'));
     let tercerTrimestre = parseInt(prompt('nota del tercer trimestre'));
     
-    
     const nota = [primerTrimestre, segundoTrimestre, tercerTrimestre];
+    
     let sum = 0;
     
     for (let i = 0; i < nota.length; i++) {
